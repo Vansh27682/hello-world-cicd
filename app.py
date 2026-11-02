@@ -1,6 +1,4 @@
 def hello_devops():
-    return "Hello, Devops!"
-
-
+    return "Hello, Git!"
 if __name__ == "__main__":
     print(hello_devops())
