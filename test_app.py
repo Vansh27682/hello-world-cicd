@@ -10,6 +10,9 @@ class TestHelloDevops(unittest.TestCase):
             "Hello, Git!"
         )
 
+    def test_hello_devops_returns_string(self):
+        self.assertIsInstance(hello_devops(), str)
+
 
 if __name__ == "__main__":
     unittest.main()
