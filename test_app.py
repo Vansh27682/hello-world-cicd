@@ -7,7 +7,7 @@ class TestHelloDevops(unittest.TestCase):
     def test_hello_devops_message(self):
         self.assertEqual(
             hello_devops(),
-            "Hello, Devops!"
+            "Hello, Git!"
         )
 
 
