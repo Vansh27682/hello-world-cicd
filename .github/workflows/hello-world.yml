@@ -28,6 +28,9 @@ jobs:
 
       - name: Run automated tests
         run: python -m unittest -v
+      
+      - name: Validate Python syntax
+        run: python -m py_compile app.py test_app.py
 
       - name: Package application
         run: |
